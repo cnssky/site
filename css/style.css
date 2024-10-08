@@ -238,6 +238,8 @@ header .logo-2 {
     color: #fff;
     font-size: 40px;
     font-weight: 300;
+    width: 60px;
+    height: 66px;
 }
 
 header .logo-2 {
@@ -738,7 +740,7 @@ header .header-col.mid .social-icons {
 #mainmenu li li a:hover,
 #mainmenu ul li:hover>a {
     color: #fff;
-    background: #1a8b49;
+    background: #7d5899;
 }
 
 #mainmenu li ul {
