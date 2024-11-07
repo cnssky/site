@@ -4,11 +4,11 @@
 <head>
     <title>MİVA </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
-    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+<script type="text/javascript" src="about-us.html"></script>
+    <link rel="icon" href="images/logo-li.png" type="image/gif" sizes="16x16">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="CoSpace - Coworking Space Website Template" name="description" />
+    <meta content="MİVA Mimarlık - Yaratıcı Tasarımlar, Kalıcı İzler." name="description" />
     <meta content="" name="keywords" />
     <meta content="" name="author" />
     <!-- CSS Files
@@ -31,9 +31,7 @@
 
 <body>
     <div id="wrapper">
-        <div id="preloader">
-            <div class="preloader1"></div>
-        </div>
+        
         <!-- header begin -->
         <header class="transparent scroll-light">
             <div class="container">
@@ -44,7 +42,7 @@
                                 <div class="de-flex-col">
                                     <!-- logo begin -->
                                     <div id="logo">
-                                        <a href="index.html">
+                                        <a href="about-us.html">
                                             <img alt="" class="logo" src="images/logo-li.png" />
                                             <img alt="" class="logo-2" src="images/logo-li.png" />
                                         </a>
@@ -58,26 +56,13 @@
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
                                     <li>
-                                        <a href="index.html">Hakkımızda<span></span></a>
+                                        <a href="about-us.html">Hakkımızda<span></span></a>
                                         <ul>
-                                            <li><a href="index.html">Homepage 1</a></li>
-                                            <li><a href="index-2.html">Homepage 2</a></li>
-                                            <li><a href="index-3.html">Homepage 3</a></li>
+                                    
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="locations.html"> Projeler
-
-
-
-
-
-
-
-
-
-                                    
-                                                            <span></span></a>
+                                        <a href="jobs.html"> Hizmetler <span></span></a>
                                         <ul>
                                             <li><a href="locations.html">All Locations</a></li>
                                             <li><a href="search-result.html">Search Location</a></li>
@@ -85,7 +70,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#"> Hizmetler<span></span></a>
+                                        <a href="events.html"> Etkinlikler<span></span></a>
                                         <ul>
                                             <li><a href="about-us.html">About Us</a></li>
                                             <li><a href="news.html">News</a></li>
@@ -136,7 +121,7 @@
             <div id="top"></div>
             
             <!-- section begin -->
-            <section id="subheader" class="text-light" data-bgimage="url(images/background/RESİM-1.jpg) top">
+            <section id="subheader" class="text-light" data-bgimage="url(images/background/RESİM-1) top">
                     <div class="center-y relative text-center">
                         <div class="container">
                             <div class="row">
@@ -213,35 +198,34 @@
                               data-mdb-ride="carousel"
                             >
                               <!-- Slides -->
-                              <div class="carousel-inner mb-5">
-                                <div class="carousel-item active">
-                                  <img
-                                    src="images/misc/ekip1.jpg" class="d-block w-100" alt=""
-                                  />
+                              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                              <div>
+                              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000" data-wrap="true">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="ekip3.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="ekip.jpg" alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src="8.jpg" alt="Third slide">
+                                  </div>
                                 </div>
-                                <div class="carousel-item">
-                                  <img
-                                    src="images/misc/ekip2.webp" class="d-block w-100" alt=""
-                                  />
-                                </div>
-                                <div class="carousel-item">
-                                  <img
-                                    src="images/misc/ekip3.jpg" class="d-block w-100" alt=""
-                                    />
-                                </div>
-                                <div class="carousel-item">
-                                    <img
-                                        src="images/misc/ekip4.jpg" class="d-block w-100" alt=""
-                                    />
-                                </div>
-                                <div class="carousel-item">
-                                     <img
-                                        src="images/misc/ekip5.jpg" class="d-block w-100" alt=""
-                                    />
-                                </div>
-                        
-                                </div>
-                                
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
                               </div>
                               <!-- Slides -->
 
@@ -268,43 +252,7 @@
 
                               <!-- Thumbnails -->
                               <div class="carousel-indicators" style="margin-bottom: -20px;">
-                                <button
-                                  type="button"
-                                  data-mdb-target="#carouselExampleIndicators"
-                                  data-mdb-slide-to="0"
-                                  class="active"
-                                  aria-current="true"
-                                  aria-label="Slide 1"
-                                  style="width: 100px;"
-                                >
-                                  <img class="d-block w-100 img-fluid"
-                                    src="images/misc/ekip1.jpg" alt=""
-                                  />
-                                </button>
-                                <button
-                                  type="button"
-                                  data-mdb-target="#carouselExampleIndicators"
-                                  data-mdb-slide-to="1"
-                                  aria-label="Slide 2"
-                                  style="width: 100px;"
-                                >
-                                  <img class="d-block w-100 img-fluid"
-                                    src="images/misc/ekip2.webp"
-                                    alt=""
-                                  />
-                                </button>
-                                <button
-                                  type="button"
-                                  data-mdb-target="#carouselExampleIndicators"
-                                  data-mdb-slide-to="2"
-                                  aria-label="Slide 3"
-                                  style="width: 100px;"
-                                >
-                                  <img class="d-block w-100 img-fluid"
-                                    src="images/misc/ekip3.jpg"
-                                    alt=""
-                                  />
-                                </button>
+                                
                                 <button
                                   type="button"
                                   data-mdb-target="#carouselExampleIndicators"
@@ -312,10 +260,7 @@
                                   aria-label="Slide 3"
                                   style="width: 100px;"
                                 >
-                                  <img class="d-block w-100 img-fluid"
-                                    src="images/misc/ekip4.jpg"
-                                    alt=""
-                                  />
+                                 
                                 </button>
                                 <button
                                   type="button"
@@ -324,10 +269,7 @@
                                   aria-label="Slide 3"
                                   style="width: 100px;"
                                 >
-                                  <img class="d-block w-100 img-fluid"
-                                    src="images/misc/ekip5.jpg"
-                                    alt=""
-                                  />
+                                 
                                 </button>
                               </div>
                               <!-- Thumbnails -->
@@ -361,7 +303,7 @@
                                     <img src="images/müdür1.jpg" class="fp-image img-fluid" alt="">
                                 </div>
 
-                                <h4>Fynley Wilkinson</h4>
+                                <h4>Duru Öztürk</h4>
                                 Proje Yöneticisi
                             </div>
                         </div>
@@ -383,7 +325,7 @@
                                     <img src="images/müdür2.jpg" class="fp-image img-fluid" alt="">
                                 </div>
 
-                                <h4>Peter Welsh</h4>
+                                <h4>Emrecan Kılıç</h4>
                                 İş Geliştirme Yöneticisi
                             </div>
                         </div>
@@ -402,10 +344,10 @@
                                         </div>
                                     </div>                                  
                                     <div class="fpw-overlay-btm"></div>
-                                    <img src="images/müdür3.jpg" class="fp-image img-fluid" alt="">
+                                    <img src="images/müdür1.jpg" class="fp-image img-fluid" alt="">
                                 </div>
 
-                                <h4>John Shepard</h4>
+                                <h4>İlayda Şimşek</h4>
                                 Finans Yöneticisi
                             </div>
                         </div>
@@ -427,7 +369,7 @@
                                     <img src="images/müdür4.jpg" class="fp-image img-fluid" alt="">
                                 </div>
 
-                                <h4>Robyn Peel</h4>
+                                <h4>Baran Aksoy</h4>
                                 Teknik Yöneticisi
                             </div>
                         </div>
@@ -448,44 +390,44 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-6 col-xs-1">
                         <div class="widget">
-                            <h5>Plans</h5>
+                            <h5>Hizmetlerimiz</h5>
                             <ul>
-                                <li><a href="#">Private Office</a></li>
-                                <li><a href="#">Coworking Space</a></li>
-                                <li><a href="#">Virtual Office</a></li>
-                                <li><a href="#">Meeting Room</a></li>
-                                <li><a href="#">Dedicated Desk</a></li>
+                                <li><a href="#">İç Mekan Tasarımı</a></li>
+                                <li><a href="#">Kentsel Tasarım</a></li>
+                                <li><a href="#">3D Modelleme ve Görselleştirme</a></li>
+                                <li><a href="#">İnşaat ve Uygulama Danışmanlığı</a></li>
+                                <li><a href="#">Mimari Danışmanlık</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-1">
                         <div class="widget">
-                            <h5>Company</h5>
+                            <h5>Kurumsal</h5>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Jobs</a></li>
-                                <li><a href="#">Franchise</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Hakkımızda</a></li>
+                                <li><a href="#">Basında Biz</a></li>
+                                <li><a href="#">Müşteri Hikayeleri</a></li>
+                                <li><a href="#">İletişim</a></li>
+                                <li><a href="#">Sıkça Sorulan Sorular (SSS)</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-1">
                         <div class="widget">
-                            <h5>Events</h5>
+                            <h5>Etkinliklerimiz</h5>
                             <ul>
-                                <li><a href="#">Jump Start Your Bussines</a></li>
-                                <li><a href="#">Web Development Meet Up</a></li>
-                                <li><a href="#">Envato Summer Meet Up</a></li>
-                                <li><a href="#">Dribbble Meet Up Sydney</a></li>
-                                <li><a href="#">International Education Expo</a></li>
+                                <li><a href="#">Kentsel Dönüşüm ve Sürdürülebilirlik Workshopları</a></li>
+                                <li><a href="#">Dijital Tasarım ve 3D Modelleme Workshopları</a></li>
+                                <li><a href="#">Mimari Aydınlatma Tasarımı Atölyesi</a></li>
+                                <li><a href="#">Tarihi Yapı Restorasyonu Workshopları</a></li>
+                                <li><a href="#">Bambu ve Ahşap Yapı Teknikleri Atölyesi</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-1">
                         <div class="widget">
-                            <h5>Newsletter</h5>
-                            <p>Signup for our newsletter to get the latest news in your inbox.</p>
+                            <h5>Size Ulaşalım:</h5>
+                            <p>İletişim bilgilerinizi giriniz.</p>
                             <form action="blank.php" class="row form-dark" id="form_subscribe" method="post" name="form_subscribe">
                                 <div class="col text-center">
                                     <input class="form-control" id="txt_subscribe" name="txt_subscribe" placeholder="enter your email" type="text" /> <a href="#" id="btn-subscribe"><i class="arrow_right bg-color-secondary"></i></a>
@@ -493,7 +435,7 @@
                                 </div>
                             </form>
                             <div class="spacer-10"></div>
-                            <small>Your email is safe with us. We don't spam.</small>
+                            <small>E-posta adresiniz bizimle güvende. Sizi rahatsız etmeyiz.</small>
                         </div>
                     </div>
                 </div>
@@ -505,8 +447,9 @@
                             <div class="de-flex">
                                 <div class="de-flex-col">
                                     <a href="index.html">
-                                        <img alt="" class="f-logo" src="images/logo.png" /><span class="copy">&copy; Copyright 2021 - CoSpace by Designesia</span>
+                                        <img alt="logo-li" class="f-logo" src="images/logo-li.png" sizes="16x16"/><span class="copy">&copy; MİVA Mimarlık - Yaratıcı Tasarımlar, Kalıcı İzler.</span>
                                     </a>
+                                 
                                 </div>
                                 <div class="de-flex-col">
                                     <div class="social-icons">
