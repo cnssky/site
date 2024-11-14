@@ -25,6 +25,7 @@
      /* --------------------------------------------------
       * header | sticky
       * --------------------------------------------------*/
+   
      function header_sticky() {
          jQuery("header").addClass("clone", 1000, "easeOutBounce");
          var $document = $(document);
@@ -39,7 +40,7 @@
              header.removeClass("scrollOn");
              header.addClass("scrollOff");
              vscroll = 0;
-         }
+      
      }
      /* --------------------------------------------------
       * plugin | magnificPopup

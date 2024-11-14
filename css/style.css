@@ -42,11 +42,12 @@
 
 /* ================================================== */
 
+
 html {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
-    background: #ffffff;
+    background: #6f29a8;
 }
 
 body {    
@@ -117,6 +118,7 @@ a.a-underline:hover span {
 
 
 /* ================================================== */
+
 
 header {
     width: 100%;
@@ -293,8 +295,7 @@ header.smaller .btn-rsvp {
     margin-top: 0px;
 }
 
-header.smaller div#logo,
-header.s2 div#logo {}
+
 
 header.smaller.scroll-light {
     background: #ffffff;
@@ -542,7 +543,7 @@ header .header-col.mid .social-icons {
 #subheader.s2 {
     text-align: left;
     padding: 120px 0 20px;
-    border: solid 1px #ddd;
+    border: solid 1px #5a4ec49c;
     border-left: none;
     border-right: none;
 }
@@ -654,7 +655,7 @@ header .header-col.mid .social-icons {
     display: inline-block;
     padding: 30px 18px;
     text-decoration: none;
-    color: #fff;
+    color: #222;
     text-align: center;
     outline: none;
 }
@@ -9903,6 +9904,9 @@ margin:5px;
     padding-left: 75px;
 }
 
+    justify-content: center; /* Ortalamak için */
+    align-items: center; /* Yükseklik yönünde ortalamak için */
+}
 .widget_top_rated_product li img {
     position: absolute;
     width: 60px;
@@ -10198,6 +10202,8 @@ i.bg-color-secondary {
 
 .f-logo {
     margin-right: 30px;
+    height: 250px;
+    width: 226px;
 }
 
 .rtl .f-logo {
@@ -15727,10 +15733,6 @@ img {
         text-align: right;
         z-index: 0;
         display: block;
-    }
-
-    header .container {
-        min-width: 100%;
     }
 
     .pricing-2-col .pricing-box,
